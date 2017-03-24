@@ -13,7 +13,6 @@
                 <style>
                   a {
                   color: orange;
-                  //first change need present. 
                   }
                 </style>
                 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
