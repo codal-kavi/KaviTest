@@ -1,0 +1,73 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li class="active">Create Team</li>
+    </ul>
+</div>
+<div class="page-content">
+    <div class="row">
+        <div class="space-6"></div>
+        <div class="col-sm-6 col-sm-offset-1">
+            <div id="" class="login-box visible widget-box no-border">
+                <div class="widget-body">
+                    <div class="widget-main">
+                        <h4 class="header blue lighter bigger">
+                            Create Team for Kavi Demo
+                        </h4>
+                        <br/>
+                        <form name="CreateForm" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label no-padding-right" for="email">Email *</label>
+                                <div class="col-sm-7">
+                                    <span class="block input-icon input-icon-right">
+                                        <input class="form-control" required placeholder="Email" name="team_code" ng-model="CreateTeam.team_code" focus/>
+                                         	<span ng-show="CreateForm.team_code.$error.required" class="help-inline">Required Field</span> 
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label no-padding-right" for="name">Team Name *</label>
+                                <div class="col-sm-7">
+                                    <span class="block input-icon input-icon-right">
+                                	<input type="text" class="form-control" required name="Team_name" placeholder="Team Name" ng-model="CreateTeam.Team_name" />
+                                	<span ng-show="CreateForm.Team_name.$error.required" class="help-inline">Required Field</span> 
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label no-padding-right" for="phone">Comment</label>
+                                <div class="col-sm-7">
+                                    <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control" placeholder="Comment" name="team_desc" ng-model="CreateTeam.team_desc"/>
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-5 control-label no-padding-right" for="address">Company Name</label>
+                                <div class="col-sm-7">
+                                    <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control" placeholder="Company name" ng-model="CreateTeam.team_company" />
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="lbl col-sm-5"> </span>
+                                <div class="col-sm-7">
+                                    <button type="submit" class="width-35 pull-right btn btn-sm btn-primary" ng-click="SaveTeam(CreateTeam)" data-ng-disabled="CreateForm.$invalid">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                            </fieldset>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- /.page-content -->
