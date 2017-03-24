@@ -12,7 +12,7 @@
               <link href="css/toaster.css" rel="stylesheet">
                 <style>
                   a {
-                  color: orange;
+                  color: orange; 
                   }
                 </style>
                 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
