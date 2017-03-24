@@ -13,7 +13,8 @@
                 <style>
                   a {
                   color: orange;
-                  //first change need present. 
+                  //first change need present.
+                  // second change, if first remove it should be as it is. 
                   }
                 </style>
                 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
