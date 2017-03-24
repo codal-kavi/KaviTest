@@ -14,7 +14,7 @@
                   a {
                   color: orange;
                   //1
-                  // second change, if first remove it should be as it is. 
+                  // 2 after push remove 1 
                   }
                 </style>
                 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
